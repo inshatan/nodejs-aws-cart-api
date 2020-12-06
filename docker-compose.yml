@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  cart-api:
+    image: cart-api:latest
+    container_name: cart-api
+    build:
+      context: .
+    ports:
+      - 4000:8080
