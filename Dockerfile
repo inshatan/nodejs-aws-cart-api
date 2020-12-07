@@ -29,7 +29,6 @@ RUN npm run build
 
 # Release
 FROM base AS release
-COPY package.json ./
 COPY --from=build /app/dist ./dist
 COPY --from=release_dependencies /app/node_modules ./node_modules
 USER node
