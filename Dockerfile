@@ -2,6 +2,8 @@
 
 # Base
 FROM node:12.20.0-alpine3.12 AS base
+LABEL Name="cart-api"
+LABEL Version="1.0"
 WORKDIR /app
 
 

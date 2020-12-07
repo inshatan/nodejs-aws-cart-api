@@ -29,7 +29,7 @@ BE Pull Request: https://github.com/inshatan/nodejs-aws-be/pull/6
 - [x] OPTIONAL: Minimize docker image size to **about 100 MB**.
 - [x] Optimize image build times. Dockerfile commands that run npm install should not depend on typescript files.
 - [x] OPTIONAL: Optimize build times by utilizing multistage builds.
-- [ ] OPTIONAL: **Lint** Dockerfile.
+- [x] OPTIONAL: **Lint** Dockerfile.
 
 ### TASK 8.2
 
