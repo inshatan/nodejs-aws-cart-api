@@ -1,0 +1,6 @@
+# Ignore everything
+**
+
+# Allow src folder, package.json and tsconfig.json
+!/src/**
+!/*.json

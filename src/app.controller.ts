@@ -10,7 +10,7 @@ export class AppController {
   healthCheck(): any {
     return {
       statusCode: HttpStatus.OK,
-      message: 'OK',
+      message: 'Hi there!',
     };
   }
 
